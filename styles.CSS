@@ -1,0 +1,124 @@
+body{
+  text-align: center;
+  font-family: Merriweather;
+  background-color: Aquamarine;
+}
+p{
+  font-size:0.75rem;
+  color: #2F4F4F;
+}
+/*top top_container*/
+
+.heading{
+  padding: 5%;
+}
+
+
+h1{margin-bottom: 0;
+  margin-top: 0;
+  font-size: 5.6rem;
+  color: RebeccaPurple;
+  font-family:Sacramento;
+}
+
+h2{
+  color: navy;
+}
+
+h3{
+  margin-top: 0;
+  color: darkorange;
+  font-family: Montserrat;
+  font-weight: normal;
+}
+hr.simple{
+  color: white;
+  border-color: yellow;
+  background-color:yellow;
+  height: .5px;
+}
+hr.dotted{
+  border-style: none;
+  border-top: dotted;
+  border-color: yellow;
+  border-width: 6px;
+  width: 20%
+}
+.cloud_top{
+  position: relative;
+  left: 200px;
+  top:50px;
+
+}
+.cloud_middle{
+  position: relative;
+  left:300px;
+  top:300px;
+}
+.cloud_bottom{
+  position: absolute;
+  left: 200px;
+  top:450px;
+}
+
+/* middle top_container*/
+
+.profile{
+  background-color: Beige;
+  padding: 80px;
+
+}
+.profile-text{
+  width: 50%;
+  margin: auto;
+  padding: 5% auto;
+}
+.dp{
+  padding: 20px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.skill-row{
+  width: 60%;
+  margin: auto;
+  padding: 3% 0 3% 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.icon{
+  margin-top: 10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.webdeveloper-icon{
+  float: left;
+  margin-right: 30px;
+}
+.photography-icon{
+  float: right;
+  margin-left: 30px;
+}
+
+/*bottom_container*/
+#bottom_container{
+
+  margin-top: 20%;
+}
+.contact-icon{
+color: RebeccaPurple;
+width: 30%;
+margin: auto;
+
+}
+.footer{
+  background-color:Beige;
+  padding: 20px;
+}
+.copyright{
+  color:  Aquamarine;
+}
